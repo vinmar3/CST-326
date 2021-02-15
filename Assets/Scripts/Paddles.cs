@@ -7,11 +7,15 @@ public class Paddles : MonoBehaviour
     public bool LeftPaddle;
     public float speed = 5f;
 
-    void Update()
+    public void Update()
     {
-        if (LeftPaddle)
-            transform.Translate(0f, Input.GetAxis("Left Player") * speed * Time.deltaTime, 0f);
-        else
-            transform.Translate(0f, Input.GetAxis("Right Player") * speed * Time.deltaTime, 0f);
+         if (LeftPaddle)
+         {
+               transform.Translate(0f, Input.GetAxis("Left Player") * speed * Time.deltaTime, 0f);
+         }
+         else
+         {
+               transform.Translate(0f, Input.GetAxis("Right Player") * speed * Time.deltaTime, 0f);
+          }
     }
 }

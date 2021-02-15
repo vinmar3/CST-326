@@ -5,10 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ball
-  - Right Goal
-  - Left Goal
-  - Left Player
-  - Right Player
+  - Wall
+  - LeftGoal
+  - RightGoal
+  - LeftPlayer
+  - RightPlayer
+  - PowerUp
   layers:
   - Default
   - TransparentFX
