@@ -108,6 +108,6 @@ public class Score : MonoBehaviour
         LeftScore.color = Color.white;
         LeftScore.text = $"{0}";
         RightScore.text = $"{0}";
-        Debug.Log($"Game Reset. Score: 0-0");
+        Debug.Log("Game Reset. Score: 0-0");
     }
 }
